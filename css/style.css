@@ -1,0 +1,22 @@
+.item1 {
+
+    grid-area: My Work;
+}
+
+.grid-container {
+
+    display: grid;
+    grid-template-areas: workgrid;
+    grid-template-rows: 100px 300px; 
+}
+
+.grid-container > div {
+
+    background-color: blueviolet;
+    text-align: left;
+    padding: 20px 0;
+    margin: auto 0;
+    font-size: 30;
+
+}
+
